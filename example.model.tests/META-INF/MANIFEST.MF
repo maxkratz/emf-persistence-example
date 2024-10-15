@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: example.model.tests
+Bundle-Name: Tests
+Bundle-SymbolicName: example.model.tests
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: .
+Require-Bundle: example.model.utils,
+ example.model.utils.smartemf,
+ examplemetamodel
+Import-Package: org.junit.jupiter.api;version="[5.11.0,6.0.0)"

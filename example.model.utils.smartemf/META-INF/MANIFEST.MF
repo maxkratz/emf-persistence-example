@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: example.model.utils.smartemf
+Bundle-Name: Smartemf
+Bundle-SymbolicName: example.model.utils.smartemf
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: .,
+ example.model.utils.smartemf
+Require-Bundle: examplemetamodel,
+ org.emoflon.smartemf

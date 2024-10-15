@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Utils
+Bundle-SymbolicName: example.model.utils
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: examplemetamodel,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.xmi
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: example.model.utils
+Export-Package: example.model.utils
